@@ -10,7 +10,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <title>Regstr</title>
+    <title>Log In</title>
   </head>
   <body style="background-color: #e9f0f0">
     <div
@@ -21,6 +21,7 @@
         <form action="/login" method="post" class="form-control p-4 shadow-lg">
           <h3 class="text-secondary">Log In</h3>
           <input
+            id="username"
             type="text"
             class="form-control my-2"
             placeholder="Your Username"
@@ -29,6 +30,7 @@
             required
           />
           <input
+            id="password"
             type="password"
             class="form-control my-4"
             placeholder="Your Password"
@@ -42,5 +44,6 @@
         </form>
       </div>
     </div>
+    <script src="/js/login.js"></script>
   </body>
 </html>
